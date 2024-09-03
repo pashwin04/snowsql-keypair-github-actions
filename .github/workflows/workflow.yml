@@ -6,7 +6,7 @@ on:
       environment:
         description: "The name of the target environment as defined in the github repo settings"
         required: true
-        default: 'Development'
+        default: 'Dev'
 
 jobs:
   hello-world:
