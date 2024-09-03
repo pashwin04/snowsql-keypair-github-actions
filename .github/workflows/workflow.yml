@@ -65,4 +65,4 @@ jobs:
         env:
           SNOWSQL_PRIVATE_KEY_PASSPHRASE: ${{ secrets.SNOWFLAKE_PRIVATE_KEY_PASSPHRASE }}
         run: |
-          ~/.snowsql/bin/snowsql -a ${{ secrets.SNOWFLAKE_ACCOUNT }} -u ${{ secrets.SNOWFLAKE_USERNAME }} --private-key-path ~/.snowsql/rsa_key.p8 -f ./hello_world.sql
+          ~/.snowsql/bin/snowsql -a ${{ secrets.SNOWFLAKE_ACCOUNT }} -u ${{ secrets.SNOWFLAKE_USERNAME }} --private-key-path ~/.snowsql/rsa_key.p8 -f .github/hello_world.sql
