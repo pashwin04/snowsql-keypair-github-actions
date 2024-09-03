@@ -1,1 +1,3 @@
-SELECT 'Hello, World! You have connected to Snowflake at '||CURRENT_TIMESTAMP()||'. Thanks for stop!'; 
+USE ROLE ACCOUNTADMIN;
+
+select * from ADMIN_DB.ADMIN_SCHEMA.TEST;
