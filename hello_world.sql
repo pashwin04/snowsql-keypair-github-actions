@@ -4,6 +4,3 @@ COPY INTO @ADMIN_DB.ADMIN_SCHEMA.test
 from ADMIN_DB.ADMIN_SCHEMA.TEST;
 LIST @ADMIN_DB.ADMIN_SCHEMA.TEST;
 
-use database ADMIN_DB;
-use schema ADMIN_SCHEMA;
-GET  @test file:///tmp/data/;
